@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    object-fit: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --link-bg: #dc2626;
+    --nav-color: #374151;
+    --img-shadow: #ffdfdf;
+    --background-color: rgba(241, 239, 239, 0.849);
+    --text-red: #f78c8c;
+    --contact-bg: #b91c1c;
+    --text-color:  #4b5563;
+    --shadow: (in oklab, oklab(57.7099% .191149 .0987651 / .25) var(--tw-shadow-alpha), transparent);
+    --footer-bg:  #111827;
+    --footer-text: #9ca3af;
+    --lighter: rgb(238, 240, 247);
+    --border: rgb(210, 214, 228);
+    --inter: Inter, system-ui, sans-serif;
+    --playfair: Playfair Display, Georgia, serif;
+}
